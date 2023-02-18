@@ -1,0 +1,26 @@
+--- 
+name: Mydict                 
+version: "2014.10.28" 
+sort: by_weight 
+use_preset_vocabulary: true  
+import_tables:                 
+  - ./dict/base/sougou_net
+  - ./dict/base/sougou_std
+  - ./dict/base/zhwiki
+  - ./dict/base/pinyin
+  - ./dict/extend/chat
+  - ./dict/extend/xiandaihanyu
+  - ./dict/extend/chengyusuyu
+  - ./dict/extend/popular
+  - ./dict/extend/computer
+  - ./dict/extend/kaifa
+  - ./dict/extend/poetry
+  - ./dict/extend/place
+  - ./dict/extend/shopping
+  - ./dict/extend/website
+  - ./dict/extend/mingxing
+  - ./dict/extend/net
+  - ./dict/extend/sgmain
+  - ./dict/thirdpart/zhwiki
+  - ./dict/thirdpart/moegirl
+...
